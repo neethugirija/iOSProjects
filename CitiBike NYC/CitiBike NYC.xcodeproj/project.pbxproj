@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADA1697D22190770007ADA46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA1697C22190770007ADA46 /* AppDelegate.swift */; };
+		ADA1697F22190770007ADA46 /* CitiBikesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA1697E22190770007ADA46 /* CitiBikesViewController.swift */; };
+		ADA1698222190770007ADA46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA1698022190770007ADA46 /* Main.storyboard */; };
+		ADA1698422190771007ADA46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADA1698322190771007ADA46 /* Assets.xcassets */; };
+		ADA1698722190771007ADA46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA1698522190771007ADA46 /* LaunchScreen.storyboard */; };
+		ADA16990221907C7007ADA46 /* CitiBikes.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA1698F221907C7007ADA46 /* CitiBikes.swift */; };
+		ADA169932219EFA8007ADA46 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA169922219EFA8007ADA46 /* DataManager.swift */; };
+		ADA169952219EFBF007ADA46 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA169942219EFBF007ADA46 /* Constants.swift */; };
+		ADA16998221A5B6C007ADA46 /* StationDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA16997221A5B6C007ADA46 /* StationDetailsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ADA1697922190770007ADA46 /* CitiBike NYC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CitiBike NYC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA1697C22190770007ADA46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADA1697E22190770007ADA46 /* CitiBikesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiBikesViewController.swift; sourceTree = "<group>"; };
+		ADA1698122190770007ADA46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADA1698322190771007ADA46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADA1698622190771007ADA46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADA1698822190771007ADA46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADA1698F221907C7007ADA46 /* CitiBikes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiBikes.swift; sourceTree = "<group>"; };
+		ADA169922219EFA8007ADA46 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		ADA169942219EFBF007ADA46 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		ADA16997221A5B6C007ADA46 /* StationDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDetailsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADA1697622190770007ADA46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADA1697022190770007ADA46 = {
+			isa = PBXGroup;
+			children = (
+				ADA1697B22190770007ADA46 /* CitiBike NYC */,
+				ADA1697A22190770007ADA46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADA1697A22190770007ADA46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADA1697922190770007ADA46 /* CitiBike NYC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADA1697B22190770007ADA46 /* CitiBike NYC */ = {
+			isa = PBXGroup;
+			children = (
+				ADA16996221A5B43007ADA46 /* View Controllers */,
+				ADA169912219E84B007ADA46 /* Data Manager */,
+				ADA1698E22190782007ADA46 /* Model */,
+				ADA1697C22190770007ADA46 /* AppDelegate.swift */,
+				ADA1698322190771007ADA46 /* Assets.xcassets */,
+				ADA1698522190771007ADA46 /* LaunchScreen.storyboard */,
+				ADA1698822190771007ADA46 /* Info.plist */,
+				ADA169942219EFBF007ADA46 /* Constants.swift */,
+			);
+			path = "CitiBike NYC";
+			sourceTree = "<group>";
+		};
+		ADA1698E22190782007ADA46 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ADA1698F221907C7007ADA46 /* CitiBikes.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ADA169912219E84B007ADA46 /* Data Manager */ = {
+			isa = PBXGroup;
+			children = (
+				ADA169922219EFA8007ADA46 /* DataManager.swift */,
+			);
+			path = "Data Manager";
+			sourceTree = "<group>";
+		};
+		ADA16996221A5B43007ADA46 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ADA1697E22190770007ADA46 /* CitiBikesViewController.swift */,
+				ADA1698022190770007ADA46 /* Main.storyboard */,
+				ADA16997221A5B6C007ADA46 /* StationDetailsViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADA1697822190770007ADA46 /* CitiBike NYC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADA1698B22190771007ADA46 /* Build configuration list for PBXNativeTarget "CitiBike NYC" */;
+			buildPhases = (
+				ADA1697522190770007ADA46 /* Sources */,
+				ADA1697622190770007ADA46 /* Frameworks */,
+				ADA1697722190770007ADA46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CitiBike NYC";
+			productName = "CitiBike NYC";
+			productReference = ADA1697922190770007ADA46 /* CitiBike NYC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADA1697122190770007ADA46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Neethu G";
+				TargetAttributes = {
+					ADA1697822190770007ADA46 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = ADA1697422190770007ADA46 /* Build configuration list for PBXProject "CitiBike NYC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADA1697022190770007ADA46;
+			productRefGroup = ADA1697A22190770007ADA46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADA1697822190770007ADA46 /* CitiBike NYC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADA1697722190770007ADA46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA1698722190771007ADA46 /* LaunchScreen.storyboard in Resources */,
+				ADA1698422190771007ADA46 /* Assets.xcassets in Resources */,
+				ADA1698222190770007ADA46 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADA1697522190770007ADA46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA169952219EFBF007ADA46 /* Constants.swift in Sources */,
+				ADA16990221907C7007ADA46 /* CitiBikes.swift in Sources */,
+				ADA16998221A5B6C007ADA46 /* StationDetailsViewController.swift in Sources */,
+				ADA169932219EFA8007ADA46 /* DataManager.swift in Sources */,
+				ADA1697F22190770007ADA46 /* CitiBikesViewController.swift in Sources */,
+				ADA1697D22190770007ADA46 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ADA1698022190770007ADA46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADA1698122190770007ADA46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADA1698522190771007ADA46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADA1698622190771007ADA46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADA1698922190771007ADA46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADA1698A22190771007ADA46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADA1698C22190771007ADA46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CitiBike NYC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "neethu.CitiBike-NYC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADA1698D22190771007ADA46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CitiBike NYC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "neethu.CitiBike-NYC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADA1697422190770007ADA46 /* Build configuration list for PBXProject "CitiBike NYC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA1698922190771007ADA46 /* Debug */,
+				ADA1698A22190771007ADA46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADA1698B22190771007ADA46 /* Build configuration list for PBXNativeTarget "CitiBike NYC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA1698C22190771007ADA46 /* Debug */,
+				ADA1698D22190771007ADA46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADA1697122190770007ADA46 /* Project object */;
+}
