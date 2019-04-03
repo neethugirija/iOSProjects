@@ -6,6 +6,7 @@ Applications:
 Uses: Codable Protocol for JSON decoding, URLSession to get data from JSON
 MKMApview to display the location on map
 
-2. Products: JSON Parsing + displaying on TableView + Core Data Integration
+2. Products: JSON Parsing + displaying on TableView + Core Data Integration.
+A detail view of each product, and option to modify and delete.
 Uses: JSON Serialization, URLSession, CoreData
 CoreData to add, modify and delete
