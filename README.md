@@ -2,7 +2,7 @@
 
 Applications:
 
-1. CitiBikesNYC : Parses a JSON & displays the details in a table. On selection of a station it shows a map view for the location.
+1. CitiBikeNYC : Parses a JSON & displays the details in a table. On selection of a station it shows a map view for the location.
 Uses: Codable Protocol for JSON decoding, URLSession to get data from JSON
 MKMApview to display the location on map
 
