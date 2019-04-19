@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B91956D12267A32600E836B6 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91956D02267A32600E836B6 /* Restaurant.swift */; };
+		B91956D52267B00700E836B6 /* APIServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91956D42267B00700E836B6 /* APIServices.swift */; };
+		B948B6A82266834700093D59 /* RestaurantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B948B6A72266834700093D59 /* RestaurantCell.swift */; };
+		B94AD7902266615500FCDB04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94AD78F2266615500FCDB04 /* AppDelegate.swift */; };
+		B94AD7922266615500FCDB04 /* AddressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94AD7912266615500FCDB04 /* AddressVC.swift */; };
+		B94AD7952266615500FCDB04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B94AD7932266615500FCDB04 /* Main.storyboard */; };
+		B94AD7972266615700FCDB04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B94AD7962266615700FCDB04 /* Assets.xcassets */; };
+		B94AD7A522666E2800FCDB04 /* ExploreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94AD7A322666E2800FCDB04 /* ExploreVC.swift */; };
+		D9D370C4DC1487833315EA25 /* Pods_Door_Dash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B6B5E5AF70F39F5B0A13D7A /* Pods_Door_Dash.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B6B5E5AF70F39F5B0A13D7A /* Pods_Door_Dash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Door_Dash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93553CFF08D22D3DEE89C3F5 /* Pods-Door Dash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Door Dash.release.xcconfig"; path = "Target Support Files/Pods-Door Dash/Pods-Door Dash.release.xcconfig"; sourceTree = "<group>"; };
+		B91956D02267A32600E836B6 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		B91956D42267B00700E836B6 /* APIServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServices.swift; sourceTree = "<group>"; };
+		B948B6A72266834700093D59 /* RestaurantCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantCell.swift; sourceTree = "<group>"; };
+		B94AD78C2266615500FCDB04 /* Door Dash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Door Dash.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B94AD78F2266615500FCDB04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B94AD7912266615500FCDB04 /* AddressVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressVC.swift; sourceTree = "<group>"; };
+		B94AD7942266615500FCDB04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B94AD7962266615700FCDB04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B94AD79B2266615700FCDB04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B94AD7A322666E2800FCDB04 /* ExploreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreVC.swift; sourceTree = "<group>"; };
+		D2930FD68B0E9FB87549905B /* Pods-Door Dash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Door Dash.debug.xcconfig"; path = "Target Support Files/Pods-Door Dash/Pods-Door Dash.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B94AD7892266615500FCDB04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D370C4DC1487833315EA25 /* Pods_Door_Dash.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DF9D00E0442B6DD9C677DC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B6B5E5AF70F39F5B0A13D7A /* Pods_Door_Dash.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B91956CF2267A31200E836B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B91956D02267A32600E836B6 /* Restaurant.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B91956D22267A5BC00E836B6 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B948B6A72266834700093D59 /* RestaurantCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B91956D32267AFF500E836B6 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				B91956D42267B00700E836B6 /* APIServices.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		B94AD7832266615500FCDB04 = {
+			isa = PBXGroup;
+			children = (
+				B94AD78E2266615500FCDB04 /* Door Dash */,
+				B94AD78D2266615500FCDB04 /* Products */,
+				C928F795EF808C2C07BB05C0 /* Pods */,
+				8DF9D00E0442B6DD9C677DC2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B94AD78D2266615500FCDB04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B94AD78C2266615500FCDB04 /* Door Dash.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B94AD78E2266615500FCDB04 /* Door Dash */ = {
+			isa = PBXGroup;
+			children = (
+				B91956D32267AFF500E836B6 /* API */,
+				B94AD7A122666C4100FCDB04 /* ViewControllers */,
+				B91956CF2267A31200E836B6 /* Model */,
+				B91956D22267A5BC00E836B6 /* Cell */,
+				B94AD78F2266615500FCDB04 /* AppDelegate.swift */,
+				B94AD7962266615700FCDB04 /* Assets.xcassets */,
+				B94AD79B2266615700FCDB04 /* Info.plist */,
+			);
+			path = "Door Dash";
+			sourceTree = "<group>";
+		};
+		B94AD7A122666C4100FCDB04 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B94AD7912266615500FCDB04 /* AddressVC.swift */,
+				B94AD7A322666E2800FCDB04 /* ExploreVC.swift */,
+				B94AD7932266615500FCDB04 /* Main.storyboard */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C928F795EF808C2C07BB05C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2930FD68B0E9FB87549905B /* Pods-Door Dash.debug.xcconfig */,
+				93553CFF08D22D3DEE89C3F5 /* Pods-Door Dash.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B94AD78B2266615500FCDB04 /* Door Dash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B94AD79E2266615700FCDB04 /* Build configuration list for PBXNativeTarget "Door Dash" */;
+			buildPhases = (
+				352F822BAD5BD539042FCDC5 /* [CP] Check Pods Manifest.lock */,
+				B94AD7882266615500FCDB04 /* Sources */,
+				B94AD7892266615500FCDB04 /* Frameworks */,
+				B94AD78A2266615500FCDB04 /* Resources */,
+				D14CE5BB3AB1C9B425FDD646 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Door Dash";
+			productName = "Door Dash";
+			productReference = B94AD78C2266615500FCDB04 /* Door Dash.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B94AD7842266615500FCDB04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					"Address Box",
+				);
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Neethu Girija";
+				TargetAttributes = {
+					B94AD78B2266615500FCDB04 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = B94AD7872266615500FCDB04 /* Build configuration list for PBXProject "Door Dash" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B94AD7832266615500FCDB04;
+			productRefGroup = B94AD78D2266615500FCDB04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B94AD78B2266615500FCDB04 /* Door Dash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B94AD78A2266615500FCDB04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B94AD7972266615700FCDB04 /* Assets.xcassets in Resources */,
+				B94AD7952266615500FCDB04 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		352F822BAD5BD539042FCDC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Door Dash-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D14CE5BB3AB1C9B425FDD646 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Door Dash/Pods-Door Dash-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Door Dash/Pods-Door Dash-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B94AD7882266615500FCDB04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B91956D12267A32600E836B6 /* Restaurant.swift in Sources */,
+				B94AD7922266615500FCDB04 /* AddressVC.swift in Sources */,
+				B91956D52267B00700E836B6 /* APIServices.swift in Sources */,
+				B94AD7902266615500FCDB04 /* AppDelegate.swift in Sources */,
+				B948B6A82266834700093D59 /* RestaurantCell.swift in Sources */,
+				B94AD7A522666E2800FCDB04 /* ExploreVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B94AD7932266615500FCDB04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B94AD7942266615500FCDB04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B94AD79C2266615700FCDB04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B94AD79D2266615700FCDB04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B94AD79F2266615700FCDB04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2930FD68B0E9FB87549905B /* Pods-Door Dash.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Door Dash/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neethugirija.Door-Dash";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B94AD7A02266615700FCDB04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93553CFF08D22D3DEE89C3F5 /* Pods-Door Dash.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Door Dash/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neethugirija.Door-Dash";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B94AD7872266615500FCDB04 /* Build configuration list for PBXProject "Door Dash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B94AD79C2266615700FCDB04 /* Debug */,
+				B94AD79D2266615700FCDB04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B94AD79E2266615700FCDB04 /* Build configuration list for PBXNativeTarget "Door Dash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B94AD79F2266615700FCDB04 /* Debug */,
+				B94AD7A02266615700FCDB04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B94AD7842266615500FCDB04 /* Project object */;
+}

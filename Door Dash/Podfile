@@ -1,0 +1,6 @@
+platform :ios, '10.0'
+
+target 'Door Dash' do
+  use_frameworks!
+  pod 'SDWebImage', '~> 5.0'
+end
